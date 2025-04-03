@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const cards = [
         { text: "", tam: "col-lg-4", Style: "noStyle" },
-        { text: "text 1", tam: "col-lg-5", Style: "card-item" },
-        { text: "text 2", tam: "col-lg-5", Style: "card-item" },
-        { text: "text 3", tam: "col-lg-5", Style: "card-item" },
-        { text: "text 4", tam: "col-lg-5", Style: "card-item" },
-        { text: "text 5", tam: "col-lg-5", Style: "card-item" },
-        { text: "text 6", tam: "col-lg-5", Style: "card-item" },
+        { tam: "col-lg-5", Style: "card-item", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript"  },
+        { tam: "col-lg-5", Style: "card-item", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
+        { tam: "col-lg-5", Style: "card-item", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
+        { tam: "col-lg-5", Style: "card-item", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
+        { tam: "col-lg-5", Style: "card-item", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
+        { tam: "col-lg-5", Style: "card-item", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
         { text: "", tam: "col-lg-4", Style: "noStyle" }
     ];
 
@@ -29,6 +29,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const areaContent = document.createElement("div");
             areaContent.classList.add("width-mod-50", "h-100", "area-content-card-carousel");
+
+            const titleCard = document.createElement("h5");
+            titleCard.classList.add("w-75", "title-card-carousel", "m-2")
+            titleCard.innerHTML = card.title;
+
+            const descCard = document.createElement("p");
+            descCard.classList.add("w-75", "desc-card-carousel", "m-2", "mt-3")
+            descCard.innerHTML = card.desc;
+
+            areaContent.appendChild(titleCard)
+            areaContent.appendChild(descCard)
             div.appendChild(areaNull);
             div.appendChild(areaContent);
 

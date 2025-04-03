@@ -232,15 +232,18 @@ a:hover {
     height: 10px;
     margin: 0 5px;
     border-radius: 50%;
-    background-color: #5a5a5a;
+    background-color: #ffffff;
     transition: background-color 0.3s;
 }
 
 .active-indicator {
-    background-color: white;
+    background-color: var(--details-color);
 }
 
 @media (max-width: 992px) {
+    .desc-card-carousel {
+        font-size: 12px;
+    }
     .position-carousel {
         display: flex; 
     }
@@ -273,4 +276,19 @@ a:hover {
 .width-mod-100 {
     width: 100%;
     transition: 200ms;
+}
+.title-card-carousel, .desc-card-carousel {
+
+    word-wrap: break-word;
+    white-space: normal;
+    
+}
+
+
+
+
+/* About me */
+
+.card-about {
+    border-style: solid;
 }
