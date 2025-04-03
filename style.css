@@ -21,6 +21,7 @@ a:hover {
     transition: 200ms;
     color: var(--details-color) !important;
 }
+
 /* Botão Menu mobile */
 .navbar-toggler {
     border: none !important; 
@@ -165,7 +166,8 @@ a:hover {
 #textContainer {
     color: rgb(112, 112, 112) !important;
 }
-.btn-social:hover , .social-btn:hover i {
+.btn-social:hover , .social-btn:hover i , .btn-carousel:hover , .btn-carousel i:hover {
+    transition: 200ms;
     color: var(--details-color) !important; 
     border-color: var(--details-color) !important;
 }
@@ -173,14 +175,7 @@ a:hover {
 
 
 /*carousel*/
-/* .card-1 {
-    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-    -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-}
-.card-3 {
-    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-} */
+
 .area-carousel {
     mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
     -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
@@ -218,4 +213,64 @@ a:hover {
     border: none;
     opacity: 1;
     background-color: white;
+}
+
+.area-buttons-carousel {
+    bottom: 180px;
+}
+.area-content-card-carousel {
+    border-radius:  0px 26px 26px 0px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+.position-carousel {
+    display: none;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #5a5a5a;
+    transition: background-color 0.3s;
+}
+
+.active-indicator {
+    background-color: white;
+}
+
+@media (max-width: 992px) {
+    .position-carousel {
+        display: flex; 
+    }
+    .area-content-card-carousel {
+        border-radius:    0px 0px 26px  26px ;
+    }
+    .carousel-component {
+        margin-left: 1px !important;
+    }
+    .area-carousel {
+        mask-image: none;
+        -webkit-mask-image: none;
+    }
+    .area-buttons-carousel {
+        bottom: 0px;
+    }
+}
+.w-50 , .w-75 {
+    transition: 300ms;
+}
+
+.width-mod-50 {
+    width: 50%;
+    transition: 200ms;
+}
+.width-mod-75 {
+    width: 75%;
+    transition: 200ms;
+}
+.width-mod-100 {
+    width: 100%;
+    transition: 200ms;
 }
