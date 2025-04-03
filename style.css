@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --details-color: rgb(48, 73, 19);
+}
+
+button {
+    border: solid;
+}
+
+
+
+body {
+    background-color: rgb(29, 29, 29) !important;
+    overflow-x: hidden;
+}
+* {
+    color: white !important;
+}
+a:hover {
+    transition: 200ms;
+    color: var(--details-color) !important;
+}
+/* Botão Menu mobile */
+.navbar-toggler {
+    border: none !important; 
+    background: transparent !important;
+    padding: 0; 
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none !important; 
+    box-shadow: none !important; 
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1); 
+}
+
+
+/* Navbar */
+.myName {
+    font-family: "IBM Plex Mono", monospace, sans-serif !important;
+}
+.detail-color {
+    color: var(--details-color) !important;
+}
+@media (max-width: 992px) {
+    .bord {
+        border-top: 1px solid ;  
+    }
+}
+
+/* Botão arrastável no mobile */
+#draggable-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: grab;
+    z-index: 999;
+}
+
+
+#draggable-btn:active {
+    cursor: grabbing;
+}
+
+.mobile-dropdown {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: none;
+    z-index: 999;
+}
+
+.mobile-dropdown ul {
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-dropdown ul li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.mobile-dropdown ul li:hover {
+    background-color: #f0f0f021;
+}
+.color-option {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.orange {
+    background-color: #ff7514;
+}
+.green {
+    background-color: rgb(48, 73, 19);
+}
+.purple {
+    background-color: #dd5a88;
+}
+.blue {
+    background-color: #79D2E6;
+}
+.red {
+    background-color: rgb(175, 36, 36);
+}
+
+/* Botão arrastável no mobile */
+
+
+.background-detail-color {
+    background-color: var(--details-color) !important;
+}
+.background-detail-color:hover {
+    background-color: var(--details-color) !important;
+    opacity: 0.8;
+}
+
+
+/*Area Main*/
+
+.title-main {
+    letter-spacing: 10px;
+    font-size: clamp(20px, 8vw, 130px); 
+    font-family: "IBM Plex Mono", monospace, sans-serif !important;
+    width: 100%;
+    white-space: nowrap;
+}
+.text-main {
+    max-width: 400px;
+}
+.btn-anchor-projects {
+    font-size: 20px !important;
+    padding: 8px 80px !important;
+}
+.btn-circle {
+    width: 50px !important; 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% !important;
+    border: none;
+    cursor: pointer;
+}
+#textContainer {
+    color: rgb(112, 112, 112) !important;
+}
+.btn-social:hover , .social-btn:hover i {
+    color: var(--details-color) !important; 
+    border-color: var(--details-color) !important;
+}
+
+
+
+/*carousel*/
+.card-1 {
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.card-3 {
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
