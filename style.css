@@ -173,12 +173,49 @@ a:hover {
 
 
 /*carousel*/
-.card-1 {
+/* .card-1 {
     mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 .card-3 {
     mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+} */
+.area-carousel {
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
 }
 
+.area-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-left: 20%;
+    white-space: nowrap;
+    justify-content: start;
+}
+
+.area-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.card-item {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    min-width: 40%; 
+    transition: all 0.3s ease-in-out;
+    border-radius: 30px;
+}
+
+.bordered-card {
+    border: 1px solid white;
+    opacity: 0.6; 
+}
+
+.center-card {
+    border: none;
+    opacity: 1;
+    background-color: white;
+}
