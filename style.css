@@ -292,3 +292,18 @@ a:hover {
 .card-about {
     border-style: solid;
 }
+@media (max-width: 345px) {
+    .btn-circle-about {
+        display: none !important;
+    }
+}
+.btn-about {
+    height: fit-content;
+}
+.btn-circle-about {
+    width: 37px !important; 
+    height: 37px;
+    border-radius: 50% !important;
+    border: none;
+    cursor: pointer;
+}
