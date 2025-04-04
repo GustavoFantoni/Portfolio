@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const cards = [
         { text: "", tam: "col-lg-4", Style: "noStyle" },
-        { tam: "col-lg-5", Style: "card-item", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript"  },
-        { tam: "col-lg-5", Style: "card-item", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
-        { tam: "col-lg-5", Style: "card-item", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
-        { tam: "col-lg-5", Style: "card-item", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
-        { tam: "col-lg-5", Style: "card-item", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
-        { tam: "col-lg-5", Style: "card-item", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
+        { tam: "col-lg-5", Style: "card-item", img: "Images/bg-1.jpg", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
+        { tam: "col-lg-5", Style: "card-item", img: "Images/bg-2.jpg", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript"  },
+        { tam: "col-lg-5", Style: "card-item", img: "Images/bg-3.jpg", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
+        { tam: "col-lg-5", Style: "card-item", img: "Images/bg-4.jpg", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
+        { tam: "col-lg-5", Style: "card-item", img: "Images/bg-5.jpg", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
+        { tam: "col-lg-5", Style: "card-item", img: "Images/bg-6.jpg", title: "Titulo do projeto aqui: PORT", desc: "Breve descrição do projeto aqui, projeto tal, frito com linguagem JavaScript" },
         { text: "", tam: "col-lg-4", Style: "noStyle" }
     ];
 
@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const areaContent = document.createElement("div");
             areaContent.classList.add("width-mod-50", "h-100", "area-content-card-carousel");
+            
 
             const titleCard = document.createElement("h5");
             titleCard.classList.add("w-75", "title-card-carousel", "m-2")
@@ -42,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
             areaContent.appendChild(descCard)
             div.appendChild(areaNull);
             div.appendChild(areaContent);
-
+            div.style.backgroundImage = `url(${card.img}) `
             
             const indicator = document.createElement("span");
             indicator.classList.add("indicator");
@@ -50,7 +51,6 @@ document.addEventListener("DOMContentLoaded", function () {
             positionContainer.appendChild(indicator);
             indicators.push(indicator);
         }
-
         rowContainer.appendChild(div);
     });
 

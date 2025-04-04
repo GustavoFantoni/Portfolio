@@ -196,6 +196,17 @@ a:hover {
     display: none;
 }
 
+.center-card, .img-project {
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bordered-card {
+    background-image: none !important;
+}
+
+
 .card-item {
     flex: 0 0 auto;
     scroll-snap-align: center;
@@ -306,4 +317,41 @@ a:hover {
     border-radius: 50% !important;
     border: none;
     cursor: pointer;
+}
+
+/* Projects */
+
+.text-2-project {
+    color: rgb(128, 128, 128) !important;
+}
+
+.img-1-projects {
+
+}
+.img-2-projects {
+    
+}
+.img-3-projects {
+    
+}
+.img-4-projects {
+    
+}
+
+@media (max-width: 500px) {
+    .img-1-projects {
+        width: 100%;
+        max-width: 100px;
+        height: 200px;
+        max-height: 200px;
+    }
+    .img-2-projects {
+        
+    }
+    .img-3-projects {
+        
+    }
+    .img-4-projects {
+        
+    }
 }
