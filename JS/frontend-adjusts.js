@@ -24,11 +24,27 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
     
+    function ajustaImagem() {
+        const img1 = document.querySelector(".img-1-projects");
+        img1.style.height = img1.clientWidth + "px";
+
+        const maskLink = document.querySelector(".mask-link");
+        maskLink.style.height = maskLink.clientWidth + "px";
+
+        const img2 = document.querySelector(".img-2-projects");
+        img2.style.height = img2.clientWidth * 1.5 + "px";
+
+        const img4 = document.querySelector(".img-4-projects");
+        img4.style.height = img4.clientWidth * 2 + "px";
+    }
        
 
     ajustarBotoesProjetos();
-    window.addEventListener("resize", ajustarBotoesProjetos);
-
+    window.addEventListener("resize", () => {
+        ajustarBotoesProjetos();
+        ajustaImagem()
+    });
+    ajustaImagem();
 });
 
 
