@@ -20,16 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     function setInitialPosition() {
-        const screenWidth = window.innerWidth;
-        const screenHeight = window.innerHeight;
-        const btnWidth = draggableBtn.offsetWidth;
-        const btnHeight = draggableBtn.offsetHeight;
-
-        currentX = screenWidth - btnWidth - 10;
-        currentY = screenHeight - btnHeight - 10;
-
-        draggableBtn.style.left = `${currentX}px`;
-        draggableBtn.style.top = `${currentY}px`;
+        draggableBtn.style.left = '10px';
+        draggableBtn.style.top = '80px';
     }
 
     function updateDropdownPosition() {
@@ -96,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
         draggableBtn.style.cursor = "grab";
         
         const screenWidth = window.innerWidth;
-        const screenHeight = window.innerHeight;
+        const screenHeight = window.innerHeight - 100;
         const btnRect = draggableBtn.getBoundingClientRect();
 
         let finalX = (btnRect.left + btnRect.width / 2) < screenWidth / 2 ? 10 : screenWidth - btnRect.width - 10;
@@ -148,10 +140,17 @@ document.addEventListener("DOMContentLoaded", () => {
         item.addEventListener("click", closeDropdown);
     });
 
-    window.addEventListener("resize", () => {
+    let lastWindowWidth = window.innerWidth;
+
+window.addEventListener("resize", () => {
+    const currentWidth = window.innerWidth;
+    if (currentWidth !== lastWindowWidth) {
         setInitialPosition();
         closeDropdown();
-    });
+        lastWindowWidth = currentWidth;
+    }
+});
+
 
     mobileDropdown.style.transition = "opacity 0.3s ease-in-out";
     mobileDropdown.style.opacity = "0";
