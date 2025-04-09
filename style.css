@@ -3,13 +3,9 @@
 :root {
     --details-color: rgb(48, 73, 19);
 }
-
 button {
     border: solid;
 }
-
-
-
 body {
     background-color: rgb(29, 29, 29) !important;
     overflow-x: hidden;
@@ -24,6 +20,10 @@ a:hover {
     transition: 200ms;
     color: var(--details-color) !important;
 }
+
+
+
+  
 
 /* Botão Menu mobile */
 .navbar-toggler {
@@ -306,10 +306,51 @@ a:hover {
 
 
 /* About me */
-
+@keyframes posCards {
+    from {
+        left: 150%;
+    } 
+    to {
+        left: 0%;
+    }
+}
 .card-about {
     border-style: solid;
+    left: 150%;
+    
 }
+
+.card-anim-0 {
+    animation: posCards 700ms forwards;
+}
+.card-anim-1 {
+    animation: posCards 500ms forwards;
+}
+.card-anim-2 {
+    animation: posCards 700ms forwards;
+}
+.card-anim-3 {
+    animation: posCards 500ms forwards;
+}
+
+@media (max-width: 997px) {
+    .card-anim-0 {
+        animation: posCards 300ms forwards;
+    }
+    .card-anim-1 {
+        animation: posCards 500ms forwards;
+    }
+    .card-anim-2 {
+        animation: posCards 700ms forwards;
+    }
+    .card-anim-3 {
+        animation: posCards 800ms forwards;
+    }
+}
+
+
+
+
 @media (max-width: 345px) {
     .btn-circle-about {
         display: none !important;
@@ -341,3 +382,21 @@ a:hover {
     pointer-events: none;
     z-index: 2;
   }
+.text-aling-right {
+    text-align: right;
+}
+
+
+
+/* Animações */
+.invisivel {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.aparecer {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.8s ease;
+}

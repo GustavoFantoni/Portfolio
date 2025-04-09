@@ -30,10 +30,10 @@
             <div class="collapse navbar-collapse bord border-white justify-content-center" id="navbarNav">
                 <ul class="navbar-nav gap-md-5 gap-3">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Sobre mim</a>
+                        <a class="nav-link" aria-current="page" href="#about-me">Sobre mim</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projetos</a>
+                        <a class="nav-link" href="#container-projetos">Projetos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Área livre</a>
@@ -165,49 +165,12 @@
         </div>
        
         <!-- Sobre mim -->
-        <div class="row d-flex flex-row-reverse  justify-content-center col-12 mt-5">
+        <div class="row d-flex flex-row-reverse justify-content-center col-12 mt-5" id="about-me">
             <h1 class="about-me">Sobre mim</h1>
 
 
-            <div class="col-lg-8 col-10 d-flex flex-row-reverse justify-content-center m flex-wrap mt-4">
-
-
-                <div class="card-about rounded-4 p-3 border-white border-1 m-lg-4 m-2 col-lg-5 col-md-8 col-11" id="card-01">
-                    <h3 class="title-about">Titulo Card</h3>
-                    <p class="desc-about">Descrição do card aqui. Descrição do card aqui. Descrição do card aqui.</p>
-
-                    <div id="buttonsContainer" class="d-flex ">
-                        <button class="btn btn-light px-5  w-auto border-0 rounded-5 background-detail-color btn-about">Mais...</button>
-                        <button class="btn mx-1 background-detail-color btn-circle-about">
-                            <i class="bi bi-arrow-right"></i>
-                        </button>
-                    </div>
-                </div>
-
-
-
-                <div class="card-about rounded-4 p-3 border-white border-1 m-lg-4 m-2 col-lg-5 col-md-8 col-11" id="card-02">
-                    <h3 class="title-about">Titulo Card</h3>
-                    <p class="desc-about">Descrição do card aqui. Descrição do card aqui. Descrição do card aqui.</p>
-                </div>
-
-
-
-                <div class="card-about rounded-4 p-3 border-white border-1 m-lg-4 m-2 col-lg-5 col-md-8 col-11" id="card-03">
-                    <h3 class="title-about">Titulo Card</h3>
-                    <p class="desc-about">Descrição do card aqui. Descrição do card aqui. Descrição do card aqui.</p>
-                </div>
-                <div class="card-about rounded-4 p-3 border-white border-1 m-lg-4 m-2 col-lg-5 col-md-8 col-11" id="card-04">
-                    <h3 class="title-about">Titulo Card</h3>
-                    <p class="desc-about">Descrição do card aqui. Descrição do card aqui. Descrição do card aqui.</p>
-
-                    <div id="buttonsContainer" class="d-flex ">
-                        <button class="btn btn-light  px-5 w-auto border-0 rounded-5 background-detail-color btn-about">Mais...</button>
-                        <button class="btn  mx-1 background-detail-color btn-circle-about">
-                            <i class="bi bi-arrow-right"></i>
-                        </button>
-                    </div>
-                </div>
+            <div class="col-lg-8 col-10 d-flex flex-row-reverse justify-content-center m flex-wrap mt-4" id="container-cards">
+                <!-- Cards dinâmicos JS -> cardsAbout.js     -->
             </div>
 
             <div class="area-buttons-about d-flex flex-column gap-3 mt-5 col-lg-1 col-2">
@@ -225,79 +188,22 @@
         </div>
 
         <!-- Projetos -->
-        <div class="row col-12 mt-5 d-flex justify-content-start">
+         
+        <div class="row col-12 mt-5 ms-1 d-flex justify-content-start" id="container-projetos">
+            <h2>Projetos</h2>
 
-
-
-            <div class="col-lg-3 mt-5">
-                <h2>Projetos</h2>
-                <div class="w-100 d-flex flex-wrap justify-content-start mt-3 ">
-                    <div class="w-auto m-1 p-0">
-                        <button class="social-btn d-flex border-1 border-white rounded-5 py-lg-1 py-0 px-4 bg-transparent   ">
-                        Java
-                        </button>
-                    </div>
-                    <div class="w-auto m-1 p-0">
-                        <button class="social-btn d-flex border-1 border-white rounded-5 py-lg-1 py-0 px-4 bg-transparent  ">
-                        Bootstrap
-                        </button>
-                    </div>
-                    <div class="w-auto m-1 p-0">
-                        <button class="social-btn d-flex border-1 border-white rounded-5 py-lg-1 py-0 px-4 bg-transparent   ">
-                        CSS
-                        </button>
-                    </div>
-                    <div class="w-auto m-1 p-0">
-                        <button class="social-btn d-flex border-1 border-white rounded-5 py-lg-1 py-0 px-4 bg-transparent  ">
-                        HTML
-                        </button>
-                    </div>
-                    <div class="w-auto m-1 p-0">
-                        <button class="social-btn d-flex border-1 border-white rounded-5 py-lg-1 py-0 px-4 bg-transparent  ">
-                            Javascript
-                        </button>
-                    </div>
-                </div>
-                <p class="mt-3">Lorem ipsum dolor sit amet, <span class="fw-bold">consectetur adipiscing</span> elit. Pellentesque felis elit, aliquet in tortor vel, scelerisque vestibulum orci. Vivamus sed semper tortor. <br><br><span class="text-2-project">Aenean condimentum euismod eros. Aliquam gravi,<span class="fw-bold"> mauris nec </span>tincidunt lacinia: </span><br><br> • ipsum massa ultricies tortor, id vulputate diam nunc vehicula ipsum.<br> • ipsum massa ultricies tortor, id vulputate diam nunc vehicula ipsum.</p>
-            </div>
-
-
-
-            <div class="col-lg-8 col-12 d-flex">
-                <div class="col-md-2 col-4 d-flex flex-column gap-3 mt-5">
-                    <div class="position-relative">
-                      <img src="Images/bg-1.jpg" alt="" class="img-project rounded-lg-5 z-n1 rounded-4 col-12 img-1-projects">
-                      <div class="mask-link rounded-lg-5 rounded-4 z-2 d-flex justify-content-center align-items-center">
-                        <button class="btn btn-circle border-white z-3">
-                            <i class="bi bi-code-slash"></i>
-                        </button>
-                      </div>
-                    </div>
-                  
-                    <img src="Images/bg-2.jpg" alt="" class="img-project rounded-lg-5 rounded-4 col-12 img-2-projects">
-                  </div>
-
-
-                <div class="col-lg-6 col-8 mt-5 ">
-                    <img src="Images/bg-3.jpg" alt="" class="img-project col-12 rounded-lg-5 rounded-4 mx-4 img-3-projects">
-                </div>
-                <div class="col-lg-3 d-lg-flex d-none">
-                    <img src="Images/bg-3.jpg" alt="" class="img-project rounded-5 col-12 mx-5 img-4-projects">
-                </div>
-            </div>
-
+             <!-- Cards dinâmicos JS -> compsProjects.js     -->
         </div>
 
-    </div>
 
+     </div> <!-- end containder -->
 
-    
-     
-
-  
+    <script src="JS/compsProjects.js"></script>
+    <script src="JS/animacoes.js"></script>
     <script src="JS/buttonColor.js"></script>
     <script src="JS/frontend-adjusts.js"></script>
     <script src="JS/carousel.js"></script>
     <script src="JS/cardsAbout.js"></script>
+    
 </body>
 </html>
