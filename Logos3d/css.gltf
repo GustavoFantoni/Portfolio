@@ -1,0 +1,1270 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter"
+  },
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        0.01,
+        0,
+        0,
+        0,
+        0,
+        0.01,
+        0,
+        0,
+        0,
+        0,
+        0.01,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8,
+        -6,
+        0,
+        1
+      ],
+      "name": "Shape 0",
+      "mesh": 0
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        15.800781,
+        -14,
+        0.01,
+        1
+      ],
+      "name": "Shape 0",
+      "mesh": 1
+    },
+    {
+      "name": "icons8-css",
+      "children": [
+        1,
+        2
+      ]
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        35.227029544799734,
+        20.26510148669406,
+        1099.7600938292233,
+        1
+      ],
+      "name": "Camera",
+      "camera": 0
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -5.946215204182409e-17,
+        0,
+        0,
+        5.946215204182409e-17,
+        1,
+        0,
+        16.129889442632532,
+        -19.585194269481068,
+        350.49605641460465,
+        1
+      ],
+      "camera": 1
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "name": "Default Ambient Light"
+    },
+    {
+      "name": "Scene",
+      "children": [
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1248,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1248,
+      "byteLength": 1248,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2496,
+      "byteLength": 832,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3328,
+      "byteLength": 1008,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4336,
+      "byteLength": 1128,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5464,
+      "byteLength": 1128,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6592,
+      "byteLength": 752,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7344,
+      "byteLength": 720,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 8064,
+      "uri": "data:application/octet-stream;base64,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AAAAAAGQWUEAAEDBAACAPwGQWUEAAEDBAAAAAAHQVEEAAITBAACAPwHQVEEAAITBAAAAAAHQVEEAAITBAACAPwHQVEEAAITBAAAAAAAwE0EAMI/BAACAPwAwE0EAMI/BAAAAAAAwE0EAMI/BAACAPwAwE0EAMI/BAAAAAAIgo0AAAITBAACAPwIgo0AAAITBAAAAAAIgo0AAAITBAACAPwIgo0AAAITBAAAAAAAAoEAAAGDBAACAPwAAoEAAAGDBAAAAAAAAoEAAAGDBAACAPwAAoEAAAGDBAAAAAAAAgD8AAGDBAACAPwAAgD8AAGDBAAAAAAAAgD8AAGDBAACAPwAAgD8AAGDBAAAAAAAwE0EA0LDBAACAPwAwE0EA0LDBAAAAAAAwE0EA0LDBAACAPwAwE0EA0LDBAAAAAADIiEEAAJzBAACAPwDIiEEAAJzBAAAAAADIiEEAAJzBAACAPwDIiEEAAJzBAAAAAABojkEAAADBAACAPwBojkEAAADBAAAAAABokkEAAAAAAACAPwBokkEAAAAAAAAAAABokkEAAAAAAACAPwBokkEAAAAAAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAABkAmj4AAIDAAACAPxkAmj4AAIDAAAAAABkAmj4AAIDAAACAPxkAmj4AAIDAAAAAAAGQYUEAAIDAAACAPwGQYUEAAIDAAAAAAAGQYUEAAIDAAACAPwGQYUEAAIDAAAAAAAHQXEEAAADBAACAPwHQXEEAAADBAAAAAAKgmUAAAEDBAACAPwKgmUAAAEDBAAAAAAGQWUEAAEDBAACAPwGQWUEAAEDBAAAAAAIgk0AAAADBAACAPwIgk0AAAADBAAAAAABojkEAAADBAACAPwBojkEAAADBAAAAAAGQYUEAAIDAAACAPwGQYUEAAIDAAAAAAADIiEEAAJzBAACAPwDIiEEAAJzBAAAAAABokkEAAAAAAACAPwBokkEAAAAAAAAAABkAmj4AAIDAAACAPxkAmj4AAIDAAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAHQVEEAAITBAACAPwHQVEEAAITBAAAAAAAwE0EAMI/BAACAPwAwE0EAMI/BAAAAAAAwE0EA0LDBAACAPwAwE0EA0LDBAAAAAAIgo0AAAITB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"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 104,
+      "max": [
+        34,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        -38,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 104,
+      "max": [
+        0.9961302876472473,
+        1,
+        1
+      ],
+      "min": [
+        -0.9961298704147339,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 104,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 252,
+      "max": [
+        103
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 94,
+      "max": [
+        18.30078125,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        -22.1015625,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 94,
+      "max": [
+        0.9992378950119019,
+        1,
+        1
+      ],
+      "min": [
+        -0.9987131357192993,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 94,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 180,
+      "max": [
+        93
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "extras": {
+            "parameters": {
+              "width": 34,
+              "subdivisions": 12,
+              "roundness": 0,
+              "extrudeBevelSize": 0,
+              "extrudeBevelSegments": 1,
+              "windingRule": 0,
+              "shape": {
+                "points": [
+                  {
+                    "fi": 0,
+                    "id": "8096e9f8-d1df-4456-b619-653542277cc2",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        31,
+                        -34
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          32,
+                          -22.667969
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          31,
+                          -34
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 1,
+                    "id": "772424cb-9fdb-4fd9-a00c-ad6218ad8f37",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        17,
+                        -38
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          17,
+                          -38
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          17,
+                          -38
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 2,
+                    "id": "30ba484d-c8fd-429e-b043-8e2bb4615d6f",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        3,
+                        -34
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          3,
+                          -34
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          3,
+                          -34
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 3,
+                    "id": "5389cdee-8591-4943-9a0a-06a08dd49ba5",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        0,
+                        0
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          0,
+                          0
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          0,
+                          0
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 4,
+                    "id": "4f5b9eca-1e19-4337-a734-40ae0396479b",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        34,
+                        0
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          34,
+                          0
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          33,
+                          -11.332031
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "isClosed": true,
+                "roundness": 0,
+                "shapeHoles": [
+                  {
+                    "points": [
+                      {
+                        "fi": 0,
+                        "id": "74b4340f-0457-4016-ae2f-85ee8738bdbc",
+                        "data": {
+                          "roundness": 0,
+                          "position": [
+                            31.816406,
+                            -2
+                          ],
+                          "areControlsDirectionsMirrored": true,
+                          "controlPrevious": {
+                            "position": [
+                              31.816406,
+                              -2
+                            ]
+                          },
+                          "controlNext": {
+                            "position": [
+                              31.816406,
+                              -2
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "fi": 1,
+                        "id": "5630ac79-3acc-47d8-84ce-f8c3ac8ef34d",
+                        "data": {
+                          "roundness": 0,
+                          "position": [
+                            2.1835939999999994,
+                            -2
+                          ],
+                          "areControlsDirectionsMirrored": true,
+                          "controlPrevious": {
+                            "position": [
+                              2.1835939999999994,
+                              -2
+                            ]
+                          },
+                          "controlNext": {
+                            "position": [
+                              2.1835939999999994,
+                              -2
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "fi": 2,
+                        "id": "ec0ab6f8-e5e4-44c6-97c0-7a75d218aeda",
+                        "data": {
+                          "roundness": 0,
+                          "position": [
+                            4.871093999999999,
+                            -32.453125
+                          ],
+                          "areControlsDirectionsMirrored": true,
+                          "controlPrevious": {
+                            "position": [
+                              4.871093999999999,
+                              -32.453125
+                            ]
+                          },
+                          "controlNext": {
+                            "position": [
+                              4.871093999999999,
+                              -32.453125
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "fi": 2.579193647933332,
+                        "id": "d987902f-e33e-44e1-ab88-e6d8dec927d6",
+                        "data": {
+                          "position": [
+                            16.741308598239783,
+                            -35.90226992018232
+                          ],
+                          "controlPrevious": {
+                            "position": [
+                              16.741308598239783,
+                              -35.90226992018232
+                            ]
+                          },
+                          "controlNext": {
+                            "position": [
+                              16.741308598239783,
+                              -35.90226992018232
+                            ]
+                          },
+                          "areControlsDirectionsMirrored": true,
+                          "roundness": 0
+                        }
+                      },
+                      {
+                        "fi": 3,
+                        "id": "413e2d8f-6523-46e6-9787-9ba59ca4580d",
+                        "data": {
+                          "roundness": 0,
+                          "position": [
+                            29.031950186008437,
+                            -32.7346034275474
+                          ],
+                          "areControlsDirectionsMirrored": true,
+                          "controlPrevious": {
+                            "position": [
+                              29.031950186008437,
+                              -32.7346034275474
+                            ]
+                          },
+                          "controlNext": {
+                            "position": [
+                              29.031950186008437,
+                              -32.7346034275474
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "isClosed": false,
+                    "roundness": 0,
+                    "shapeHoles": []
+                  }
+                ]
+              },
+              "type": "VectorGeometry",
+              "height": 38,
+              "depth": 1
+            },
+            "shape": {
+              "points": [
+                31,
+                -34,
+                32,
+                -22.667969,
+                31,
+                -34,
+                0,
+                17,
+                -38,
+                17,
+                -38,
+                17,
+                -38,
+                0,
+                3,
+                -34,
+                3,
+                -34,
+                3,
+                -34,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                34,
+                0,
+                34,
+                0,
+                33,
+                -11.332031,
+                0
+              ],
+              "shapeHoles": [
+                {
+                  "points": [
+                    31.816406,
+                    -2,
+                    31.816406,
+                    -2,
+                    31.816406,
+                    -2,
+                    0,
+                    2.1835939999999994,
+                    -2,
+                    2.1835939999999994,
+                    -2,
+                    2.1835939999999994,
+                    -2,
+                    0,
+                    4.871093999999999,
+                    -32.453125,
+                    4.871093999999999,
+                    -32.453125,
+                    4.871093999999999,
+                    -32.453125,
+                    0,
+                    16.741308598239783,
+                    -35.90226992018232,
+                    16.741308598239783,
+                    -35.90226992018232,
+                    16.741308598239783,
+                    -35.90226992018232,
+                    0,
+                    29.031950186008437,
+                    -32.7346034275474,
+                    29.031950186008437,
+                    -32.7346034275474,
+                    29.031950186008437,
+                    -32.7346034275474,
+                    0
+                  ],
+                  "shapeHoles": [],
+                  "isClosed": false,
+                  "roundness": 0
+                }
+              ],
+              "isClosed": true,
+              "roundness": 0
+            },
+            "type": "VectorGeometry"
+          },
+          "indices": 3
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "extras": {
+            "parameters": {
+              "width": 100,
+              "subdivisions": 12,
+              "roundness": 0,
+              "extrudeBevelSize": 0,
+              "extrudeBevelSegments": 1,
+              "windingRule": 0,
+              "shape": {
+                "points": [
+                  {
+                    "fi": 0,
+                    "id": "4708962c-cc5d-45b2-87c7-e97a59e77864",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        1,
+                        -14
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          1,
+                          -14
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          1,
+                          -14
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 1,
+                    "id": "2dc75688-1b6f-4a61-a732-13ba84944e99",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        5,
+                        -14
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          5,
+                          -14
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          5,
+                          -14
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 2,
+                    "id": "27c54fb7-4208-410f-ab93-eb6d0bf9d6e4",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        5.097656999999998,
+                        -16.5
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          5.097656999999998,
+                          -16.5
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          5.097656999999998,
+                          -16.5
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 3,
+                    "id": "6aa0acbc-c921-4fbd-a766-6832bf751e6f",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        9.199219,
+                        -17.898438
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          9.199219,
+                          -17.898438
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          9.199219,
+                          -17.898438
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 4,
+                    "id": "ba207400-407d-46cf-a4f7-a13d65fdeb40",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        13.300781999999998,
+                        -16.5
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          13.300781999999998,
+                          -16.5
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          13.300781999999998,
+                          -16.5
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 5,
+                    "id": "95c568b6-aa43-4223-974d-753e4862f139",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        13.597656999999998,
+                        -12
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          13.597656999999998,
+                          -12
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          13.597656999999998,
+                          -12
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 6,
+                    "id": "9a973fca-4f66-4bdb-ac81-7887168eae57",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        4.800781999999998,
+                        -12
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          4.800781999999998,
+                          -12
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          4.800781999999998,
+                          -12
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 7,
+                    "id": "a73ffbb4-0678-4843-a51b-77446c279cb1",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        4.597656999999998,
+                        -8
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          4.597656999999998,
+                          -8
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          4.597656999999998,
+                          -8
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 8,
+                    "id": "70d699cd-ca69-4b99-9335-1bbdfdef40db",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        13.800781999999998,
+                        -8
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          13.800781999999998,
+                          -8
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          13.800781999999998,
+                          -8
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 9,
+                    "id": "a9384833-1483-4f62-a715-5aa58048ec87",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        14.097656999999998,
+                        -4
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          14.097656999999998,
+                          -4
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          14.097656999999998,
+                          -4
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 10,
+                    "id": "f43a2f58-3391-4745-9524-313797a03d39",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        0.3007819999999981,
+                        -4
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          0.3007819999999981,
+                          -4
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          0.3007819999999981,
+                          -4
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 11,
+                    "id": "a2289c5f-6ca5-44d0-ace0-f7b90b8a336c",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        0,
+                        0
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          0,
+                          0
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          0,
+                          0
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 12,
+                    "id": "cc878433-7a0a-4c62-984b-fdbdca86aaba",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        18.300781999999998,
+                        0
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          18.300781999999998,
+                          0
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          18.300781999999998,
+                          0
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 13,
+                    "id": "853d0fc4-c1f3-419e-a4ce-32482260fdc7",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        17.800781999999998,
+                        -8
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          17.800781999999998,
+                          -8
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          17.800781999999998,
+                          -8
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 14,
+                    "id": "20eabc9f-6ccf-47ee-8df0-cb57bdb94466",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        17.097656999999998,
+                        -19.5
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          17.097656999999998,
+                          -19.5
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          17.097656999999998,
+                          -19.5
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "fi": 15,
+                    "id": "e2ba1d40-af8e-487e-ac50-5328f5daea2c",
+                    "data": {
+                      "roundness": 0,
+                      "position": [
+                        9.199219,
+                        -22.101563
+                      ],
+                      "areControlsDirectionsMirrored": true,
+                      "controlPrevious": {
+                        "position": [
+                          9.199219,
+                          -22.101563
+                        ]
+                      },
+                      "controlNext": {
+                        "position": [
+                          9.199219,
+                          -22.101563
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "isClosed": false,
+                "roundness": 0,
+                "shapeHoles": []
+              },
+              "type": "VectorGeometry",
+              "height": 100,
+              "depth": 1
+            },
+            "shape": {
+              "points": [
+                1,
+                -14,
+                1,
+                -14,
+                1,
+                -14,
+                0,
+                5,
+                -14,
+                5,
+                -14,
+                5,
+                -14,
+                0,
+                5.097656999999998,
+                -16.5,
+                5.097656999999998,
+                -16.5,
+                5.097656999999998,
+                -16.5,
+                0,
+                9.199219,
+                -17.898438,
+                9.199219,
+                -17.898438,
+                9.199219,
+                -17.898438,
+                0,
+                13.300781999999998,
+                -16.5,
+                13.300781999999998,
+                -16.5,
+                13.300781999999998,
+                -16.5,
+                0,
+                13.597656999999998,
+                -12,
+                13.597656999999998,
+                -12,
+                13.597656999999998,
+                -12,
+                0,
+                4.800781999999998,
+                -12,
+                4.800781999999998,
+                -12,
+                4.800781999999998,
+                -12,
+                0,
+                4.597656999999998,
+                -8,
+                4.597656999999998,
+                -8,
+                4.597656999999998,
+                -8,
+                0,
+                13.800781999999998,
+                -8,
+                13.800781999999998,
+                -8,
+                13.800781999999998,
+                -8,
+                0,
+                14.097656999999998,
+                -4,
+                14.097656999999998,
+                -4,
+                14.097656999999998,
+                -4,
+                0,
+                0.3007819999999981,
+                -4,
+                0.3007819999999981,
+                -4,
+                0.3007819999999981,
+                -4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                18.300781999999998,
+                0,
+                18.300781999999998,
+                0,
+                18.300781999999998,
+                0,
+                0,
+                17.800781999999998,
+                -8,
+                17.800781999999998,
+                -8,
+                17.800781999999998,
+                -8,
+                0,
+                17.097656999999998,
+                -19.5,
+                17.097656999999998,
+                -19.5,
+                17.097656999999998,
+                -19.5,
+                0,
+                9.199219,
+                -22.101563,
+                9.199219,
+                -22.101563,
+                9.199219,
+                -22.101563,
+                0
+              ],
+              "shapeHoles": [],
+              "isClosed": false,
+              "roundness": 0
+            },
+            "type": "VectorGeometry"
+          },
+          "indices": 7
+        }
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 2.1075740944017562,
+        "yfov": 0.7853981633974483,
+        "zfar": 100000,
+        "znear": 70
+      },
+      "name": "Camera"
+    },
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 2.1075740944017562,
+        "yfov": 0.7853981633974483,
+        "zfar": 100000,
+        "znear": 70
+      }
+    }
+  ]
+}
