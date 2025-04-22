@@ -18,6 +18,13 @@
 </head>
 <body>
     
+
+    <div class="area-nav position-fixed d-flex flex-column align-items-center justify-content-evenly" onmouseenter="alterarIcons('20px')" onmouseleave="alterarIcons('12px')" >
+        <i class="bi bi-house-fill item-nav corPequena" data-flag=""></i> <!-- se quiser deixar sem referência -->
+        <i class="bi bi-person-fill item-nav corPequena" data-flag="about-me"></i>
+        <i class="bi bi-rocket-takeoff-fill item-nav corPequena" data-flag="container-projetos"></i>
+        <i class="bi bi-terminal-fill item-nav corPequena" data-flag="contatos"></i> <!-- por exemplo -->
+    </div>
     
 
     <!-- Navbar -->
@@ -78,7 +85,7 @@
     <div class="container-fluid d-lg-flex flex-column align-items-center mt-5 vh-100 px-lg-5">
         
         <!-- Titulo -->
-        <div class="row w-100">
+        <div class="row w-100 flag">
             <div class="d-flex flex-lg-row flex-column align-items-center justify-content-between">
                 <h1 class="me-3 title-main m-0 px-3">Front-End</h1>
                 <div id="buttonsContainer" class="d-lg-flex d-none">
@@ -161,7 +168,7 @@
         </div>
        
         <!-- Sobre mim -->
-        <div class="row d-flex flex-row-reverse justify-content-center col-12 mt-5" id="about-me">
+        <div class="row d-flex flex-row-reverse justify-content-center col-12 mt-5 flag" id="about-me">
             <h1 class="about-me">Sobre mim</h1>
 
 
@@ -185,76 +192,37 @@
 
         <!-- Projetos -->
          
-        <div class="row col-12 mt-5 ms-1 d-flex justify-content-start" id="container-projetos">
+        <div class="row col-12 mt-5 ms-1 d-flex justify-content-start flag" id="container-projetos">
             <h2>Projetos</h2>
 
              <!-- Cards dinâmicos JS -> compsProjects.js     -->
         </div>
 
+        <div class="mask-top"></div>
+        <div class="mask-bottom"></div>
 
-        <!-- <div class="row col-12 h-auto">
-            <div class="card-tec">
-            
-              <div id="wrapper" style="width: 400px; height: 400px;">
-                <model-viewer
-                  id="jsLogo"
-                  src="Logos3d/javascript.gltf"
-                  alt="Logo javascript 3D"
-                  camera-controls
-                  auto-rotate
-                  
-                  disable-zoom
-                  interaction-prompt="none"
-                  interaction-policy="none"
-                  background-color="transparent"
-                  style="width: 100%; height: 100%;">
-                </model-viewer>
-              </div>
-            </div> -->
-
-          <!-- Espaço antes para dar scroll -->
-            <div style="height: 100vh;"></div>
-
-            <!-- Seção principal -->
-            <section id="tech-section" style="height: calc(100vh * 6); position: relative;">
-            <div class="sticky-wrapper" style="position: sticky; top: 0; height: 100vh; display: flex; align-items: center; justify-content: center;">
-                <model-viewer
-                id="modelViewer"
-                src="Logos3d/javascript.gltf"
-                alt="Logo tecnologia"
-                camera-controls
-                auto-rotate
-                disable-zoom
-                interaction-prompt="none"
-                interaction-policy="none"
-                background-color="transparent"
-                style="width: 400px; height: 400px;">
-                </model-viewer>
-            </div>
-            </section>
-
-            <!-- Espaço depois para continuar scrollando -->
-            <div style="height: 100vh;"></div>
-
-              
-              <!-- Padding depois da seção -->
-              
-
-            
+        <div class="area-tech flag">
+           
+        </div>
+      
           
-          
+        
+
+
 
      </div> <!-- end containder -->
 
 
       
      <!-- <script src="JS/move3dObject.js"></script> -->
-    <script src="JS/scroll.js"></script>
+    <script src="JS/flags.js"></script>
+    <script src="JS/scrollTech.js"></script>
     <script src="JS/compsProjects.js"></script>
     <script src="JS/animacoes.js"></script>
     <script src="JS/buttonColor.js"></script>
     <script src="JS/frontend-adjusts.js"></script>
     <script src="JS/carousel.js"></script>
     <script src="JS/cardsAbout.js"></script>
+    <script src="JS/navigation.js"></script>
     
 </html>

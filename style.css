@@ -20,7 +20,15 @@ a:hover {
     transition: 200ms;
     color: var(--details-color) !important;
 }
-
+html, body{
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+    overflow: auto;
+  }
+  
+  html::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
 
 
   
@@ -71,7 +79,7 @@ a:hover {
     align-items: center;
     font-size: 24px;
     cursor: grab;
-    z-index: 999;
+    z-index: 9998;
 }
 
 
@@ -88,7 +96,7 @@ a:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px;
     display: none;
-    z-index: 999;
+    z-index: 9998;
 }
 
 .mobile-dropdown ul {
@@ -407,8 +415,105 @@ a:hover {
     height: 200px;
   }
 
-  model-viewer {
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
+model-viewer {
+width: 100%;
+height: 100%;
+background-color: transparent;
+}
+
+.mask-top,
+.mask-bottom {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  z-index: 9997;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.mask-top {
+  top: 0;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, transparent 100%);
+  background:rgb(29, 29, 29);
+}
+
+.mask-bottom {
+  bottom: 0;
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, transparent 100%);
+  background: rgb(29, 29, 29);
+}
+
+.area-tech {
+    scroll-snap-align: center;
+    scroll-snap-type: y mandatory;
+    flex: none;
+}
+
+.area-tech {
+    height: 100vh; /* ou outra altura que você preferir */
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  
+  .card-tech {
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+
+  /* Navigation */
+
+
+
+
+
+.area-nav {
+    height: 20vh;
+    background-color: #ffffff07;
+    border-radius: 10px;
+    width: 20px;
+    right: 5px;
+    top: 40vh;
+    transition: 300ms;
+    z-index: 9999;
+}
+.area-nav:hover {
+    background-color: #2e2e2ee8;
+    height: 50vh;
+    top: 25vh;
+    width: 80px;
+    transition: 300ms;
+}
+.item-nav {
+    font-size: 12px ;
+    transition: 200ms;
+    
+}
+.item-nav.active {
+    border-radius: 50%;
+
+    background-color: #ffffff4d;
+}
+.corPequena {
+    color: rgba(255, 255, 255, 0.068) !important; 
+    width: 18px;
+    height: 18px;
+}
+.corGrande {
+    color: #ffffff5e !important;
+    width: 30px;
+    height: 30px;
+}
+ 
